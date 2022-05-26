@@ -44,6 +44,8 @@ How does it translate in practice?
 
 I propose to develop the liquid staking framework. I have experience as a web3 developer (web and solidity), and after some research, I'm confident about the feasability. The general architecture would be the following:
 
+![Flowchart](https://github.com/Oni-giri/tornado-cash-liquid-staking/raw/main/flow.png)
+
 What needs to be done:
 
 - Frontend (React)
