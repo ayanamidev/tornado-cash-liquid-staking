@@ -31,7 +31,7 @@ How does it translate in practice?
 
 ## Economics
 
-- The relayer asks for $Torn to be locked and emits a staked version of the tokens.
+- The relayer asks for $TORN to be locked and emits a staked version of the tokens.
 - A share of the relay fees is used buyback $Torn distributed to governance stakers.
 - The profits are distributed to $Torn liquid staking token holders.
 - The operator is incentivized to keep the infrastructure operational by taking a % of the the revenues.
