@@ -33,8 +33,18 @@ How does it translate in practice?
 
 - The relayer asks for $Torn to be locked and emits a staked version of the tokens.
 - A share of the relay fees is used buyback $Torn distributed to governance stakers.
-- The profits are distributed to $Torn liquid staking token holders.
+- The profits are distributed (as $TORN or $ETH) to liquid staking token holders.
 - The operator is incentivized to keep the infrastructure operational by taking a % of the the revenues.
 
+
+## Development
+
+I propose to develop the liquid staking framework. I have experience as a web3 developer (web and solidity), and after some research, I'm confident about the feasability. The general architecture would be the following:
+
+What needs to be done:
+
+- Frontend (React)
+- Customization of the relayer to accomodate interaction with the smart contract interface
+- Flexible smart contracts allowing for governance and updatability
 
 
