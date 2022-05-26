@@ -7,7 +7,7 @@
 ## Why?
 Currently, users wanting to participate in the protocol as a relayer need to lock forever a large amount of tokens, worth around 10,000$ at the time of writing. This creates a major barrier of entry, and an important risk, as you're effectively betting that the future revenues from the relaying will cover your initial investment.
 
-Another limiting factor comes from the scoring system Tornado Cash uses to redirect the withdraw orders to relayers: the more you stake, the more you relay and thus the lower your income volatility is. This, in effect, gives a strong incentive to lock larger amounts, but at the same time, excludes smaller holders and thus reduces their implication in the protocol's internals. We can capture this effect in the revenue difference over time for relayer locking (~200% APR) and governance staking (~70% APR). 
+Another limiting factor comes from the revenue volatility for small stackers, which deters small stakes in the range of 300-1000 $TORN, and thus increases centralization of the relayers. Those barriers translate the revenue difference over time for relayer locking (~200% APR) and governance staking (~70% APR). 
 
 ## Proposal
 This situation can be improved by creating a liquid staking framework for Tornado Cash relayers. Holders of $TORN would be allowed to delegate their tokens to a relayer, which would in exchange emit a liquid staking token representing the holder's share in the funds. This token can then be exchanged on the secondary market (with an AMM pair, for instance), be used to earn some of the relayer's fees, and participate in governance of the relayer, further decentralizing the protocol.
