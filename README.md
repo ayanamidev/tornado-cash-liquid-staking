@@ -1,4 +1,7 @@
 # Liquid staking for Tornado Cash relayers
+
+tl;dr: Allow users to lock their tokens to a relayer in a decentralized way, in echange of a share of the fees collected and a governance power.
+
 *Liquid staking* refers to the emission of a tokenized version of a locked token. Example: $CvxCrv is the liquid staking version of $CRV locked into Convex. $stETH is the liquid staking version of the $ETH staked by Lido on the beacon chain.
 
 ## Why?
